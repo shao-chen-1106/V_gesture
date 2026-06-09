@@ -6,12 +6,12 @@ import numpy as np
 from PIL import Image
 
 # 1. 頁面基本配置
-st.set_page_config(page_title="學生??專題：勝利手勢偵測", layout="wide")
+st.set_page_config(page_title="學生黃紹宸專題：勝利手勢偵測", layout="wide")
 
 # --- 側邊欄 (Sidebar) ---
-st.sidebar.header("📁 學生??基本資料")
+st.sidebar.header("📁 學生黃紹宸基本資料")
 school = st.sidebar.text_input("高中名稱", "某某???高級中學")
-name = st.sidebar.text_input("學生姓名", "王小明???")
+name = st.sidebar.text_input("學生姓名", "黃紹宸")
 interest = st.sidebar.text_area("興趣", "電腦視覺??、人工智慧??、手勢識別??")
 
 st.sidebar.divider()
